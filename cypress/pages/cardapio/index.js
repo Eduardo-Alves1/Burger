@@ -16,7 +16,7 @@ class Cardapio {
     cadadastroCategoria() {
         cy.get(elm.optionCategoria).click()
         cy.fixture('category.json').then((categoria) => {
-            cy.get(elm.inputCategoria).type(categoria.categoria3)
+            cy.get(elm.inputCategoria).type(categoria.categoria4)
         })
         cy.get(elm.botaoCategoria).click()
     }
