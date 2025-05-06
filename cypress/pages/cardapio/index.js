@@ -4,7 +4,7 @@ class Cardapio {
         cy.url().should('include', '/dashboard')
     }
 
-    AacessarCategoria() {
+    AcessarCategoria() {
         cy.get(elm.optionCategoria).click()
 
     }
@@ -13,16 +13,25 @@ class Cardapio {
         cy.get(elm.nomeCategoria).should('be.visible')
     }
 
-    cadadastroCategoria() {
-        cy.get(elm.optionCategoria).click()
-        cy.fixture('category.json').then((categoria) => {
-            cy.get(elm.inputCategoria).type(categoria.categoria4)
-        })
+    cadadastroCategoria(categoria) {
+        cy.get(elm.inputCategoria).click()
+        cy.get(elm.nomeCategoria).type(categoria.nome)
         cy.get(elm.botaoCategoria).click()
+
     }
 
     validarCadastroCategoria() {
         cy.get(elm.validarCadastroCategoria).should('be.visible')
+    }
+
+    cadastroCategoriaExistente(categoria) {
+        cy.get(elm.inputCategoria).click()
+        cy.get(elm.nomeCategoria).type(categoria.nome)
+        cy.get(elm.botaoCategoria).click()
+    }
+
+    validarCategoriaExistente() {
+        cy.get(elm.validarCategoriaExistente).should('be.visible')
     }
 }
 

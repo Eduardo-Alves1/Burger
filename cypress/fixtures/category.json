@@ -1,14 +1,144 @@
 {
-  "categoria1": "Hambúrguer",
-  "categoria2": "Pizza",
-  "categoria3": "Sushi",
-  "categoria4": "Salada",
-  "categoria5": "Sobremesa",
-  "categoria6": "Bebida",
-  "categoria7": "Petisco",
-  "categoria8": "Aperitivo",
-  "categoria9": "Prato Principal",
-  "categoria10": "Lanche",
-  "categoria11": "Vegetariano",
-  "categoria12": "Vegano"
+  "categorias": [
+    {
+      "nome": "Bebidas",
+      "descricao": "Categoria de bebidas"
+    },
+    {
+      "nome": "Lanches",
+      "descricao": "Categoria de lanches"
+    },
+    {
+      "nome": "Sobremesas",
+      "descricao": "Categoria de sobremesas"
+    },
+    {
+      "nome": "Pratos principais",
+      "descricao": "Categoria de pratos principais"
+    },
+    {
+      "nome": "Saladas",
+      "descricao": "Categoria de saladas"
+    },
+    {
+      "nome": "Sopas",
+      "descricao": "Categoria de sopas"
+    },
+    {
+      "nome": "Acompanhamentos",
+      "descricao": "Categoria de acompanhamentos"
+    },
+    {
+      "nome": "Bolos",
+      "descricao": "Categoria de bolos"
+    },
+    {
+      "nome": "Doces",
+      "descricao": "Categoria de doces"
+    },
+    {
+      "nome": "Frutas",
+      "descricao": "Categoria de frutas"
+    },
+    {
+      "nome": "Vegetais",
+      "descricao": "Categoria de vegetais"
+    },
+    {
+      "nome": "Carnes",
+      "descricao": "Categoria de carnes"
+    },
+    {
+      "nome": "Peixes",
+      "descricao": "Categoria de peixes"
+    },
+    {
+      "nome": "Frutos do mar",
+      "descricao": "Categoria de frutos do mar"
+    },
+    {
+      "nome": "Grãos",
+      "descricao": "Categoria de grãos"
+    },
+    {
+      "nome": "Laticínios",
+      "descricao": "Categoria de laticínios"
+    },
+    {
+      "nome": "Temperos",
+      "descricao": "Categoria de temperos"
+    },
+    {
+      "nome": "Ervas",
+      "descricao": "Categoria de ervas"
+    },
+    {
+      "nome": "Condimentos",
+      "descricao": "Categoria de condimentos"
+    },
+    {
+      "nome": "Oleaginosas",
+      "descricao": "Categoria de oleaginosas"
+    },
+    {
+      "nome": "Sementes",
+      "descricao": "Categoria de sementes"
+    },
+    {
+      "nome": "Nozes",
+      "descricao": "Categoria de nozes"
+    },
+    {
+      "nome": "Castanhas",
+      "descricao": "Categoria de castanhas"
+    },
+    {
+      "nome": "Cereais",
+      "descricao": "Categoria de cereais"
+    },
+    {
+      "nome": "Massas",
+      "descricao": "Categoria de massas"
+    },
+    {
+      "nome": "Pães",
+      "descricao": "Categoria de pães"
+    },
+    {
+      "nome": "Biscoitos",
+      "descricao": "Categoria de biscoitos"
+    },
+    {
+      "nome": "Chás",
+      "descricao": "Categoria de chás"
+    },
+    {
+      "nome": "Cafés",
+      "descricao": "Categoria de cafés"
+    },
+    {
+      "nome": "Chocolates",
+      "descricao": "Categoria de chocolates"
+    },
+    {
+      "nome": "Doces em conserva",
+      "descricao": "Categoria de doces em conserva"
+    },
+    {
+      "nome": "Conservas",
+      "descricao": "Categoria de conservas"
+    },
+    {
+      "nome": "Aperitivos",
+      "descricao": "Categoria de aperitivos"
+    },
+    {
+      "nome": "Petiscos",
+      "descricao": "Categoria de petiscos"
+    },
+    {
+      "nome": "Entradas",
+      "descricao": "Categoria de entradas"
+    }
+  ]
 }
